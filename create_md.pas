@@ -94,13 +94,6 @@ end;
     
 // end;
 
-
-
-
-
-
-
-
 begin
     create_list(start);
     write_to_file(start);
