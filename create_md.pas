@@ -1,21 +1,21 @@
 program create_md;
 type
-    spisok = (yaselnaya, mladshaya, srednaya, starshaya);
-    a = ^list2;
+    group_type_enum = (yaselnaya, mladshaya, srednaya, starshaya);
+    a = ^data_node;
     
-    list = record
-        shifr: string;
-        children: integer;
-        fam_vaspitatelya: string;
-        group_type: spisok;
+    data = record
+        group_code: string;
+        children_number: integer;
+        teacher_name: string;
+        group_type: group_type_enum;
     end;
 
-    list2 = record
-        value: list;
+    data_node = record
+        value: data;
         next: a;
     end;
 
-    file1 = file of list;
+    file1 = file of data;
 
 var start:a;
 
