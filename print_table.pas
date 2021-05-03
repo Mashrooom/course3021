@@ -14,8 +14,8 @@ implementation
     procedure print_head;
     begin
         {Tables head}
-        writeln('+==+======================+===========+==========+=============+');
-        writeln('| N|     Second name      |   Place   |  Points  | Institution |');
+        writeln('+==+==============+=====================+========================+==============+');
+        writeln('| N|  Group code  |   Children number   |      Teacher name      |  Group type  |');
     end;
 
 
@@ -23,7 +23,7 @@ implementation
     procedure print_bot;
     begin
         {Table's bot}
-        writeln('+==+======================+===========+==========+=============+');
+        writeln('+==+==============+=====================+========================+==============+');
     end;
 
 
