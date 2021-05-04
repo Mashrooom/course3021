@@ -2,7 +2,7 @@ unit create_md;
 {create md on physical memory and load it to dynamic memory}
 
 interface
-    uses ;
+    uses table, types, crt;
 
     {create md}
     procedure new_md();

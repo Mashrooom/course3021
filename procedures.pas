@@ -3,21 +3,21 @@ unit procedures;
 interface
 
     uses types, crt, print_table;
-
+    {Add new element to the end of the curent MD}
     procedure add_new_el();
-
+    {Print all elements of the curent MD }
     procedure print_current_md();
-
+    {Find element by index}
     procedure find_el();
-
+    {Swap working MD}
     procedure swap_md();
-
+    {Create new MD form all elements with key field}
     procedure create_new_md();
-
+    {Add all elements from the current MD to the end of the 2nd MD}
     procedure adding_all_to_second_md();
 
 implementation
-
+    {Add new element to the end of the curent MD}
     procedure add_new_el();
     var a:byte;
     begin
@@ -25,7 +25,7 @@ implementation
         readln();
     end;
 
-
+    {Print all elements of the curent MD }
     procedure print_current_md();
     var a:byte;
     begin
@@ -33,7 +33,7 @@ implementation
         readln();
     end;
 
-
+    {Find element by index}
     procedure find_el();
     var a:byte;
     begin
@@ -41,7 +41,7 @@ implementation
         readln();
     end;
 
-
+    {Swap working MD}
     procedure swap_md();
     var a:byte;
     begin
@@ -49,7 +49,7 @@ implementation
         readln();
     end;
 
-
+    {Create new MD form all elements with key field}
     procedure create_new_md();
     var a:byte;
     begin
@@ -57,7 +57,7 @@ implementation
         readln();
     end;
 
-
+    {Add all elements from the current MD to the end of the 2nd MD}
     procedure adding_all_to_second_md();
     var a:byte;
     begin
